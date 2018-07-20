@@ -1,1 +1,1 @@
-# machine-learning.github.io
+# machines-learning.github.io
