@@ -28,6 +28,10 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+auto_category:
+ enable: true
+ depth:
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -74,6 +78,10 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+# use timestamp generated value for the permalink http://hluglk.top/archives/1500846116/
+number_title:
+  enable: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
