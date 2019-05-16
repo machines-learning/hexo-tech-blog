@@ -4,16 +4,16 @@
 
 # Site
 title: Machine Learning
-subtitle: machines-learning's blog
+subtitle: machine-learning's blog
 description: Computers are able to see, hear and learn. Welcome to the future
 keywords:
-author: machines-learning
+author: machine-learning
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://machines-learning.github.io/
+url: https://artificial-intelligence.net.cn/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
