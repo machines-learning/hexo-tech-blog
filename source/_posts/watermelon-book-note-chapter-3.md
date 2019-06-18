@@ -1,6 +1,8 @@
 ---
 permalink: 1560877262
 title: 周志华《机器学习》第 3 章：线性模型笔记
+mathjax: true
+categories: 西瓜书笔记
 date: 2019-06-19 01:01:02
 tags:
 ---
@@ -28,7 +30,7 @@ tags:
 
 3. **线性回归的定义**
 
-   给定数据集 $D = {(x_1, y_1}, (x_2, y_2), …, (x_m, y_m)$，其中 $x_i = (x_{i1}; x_{i2}; … ; x_{id})$，$y_i \in \mathbb{R}$。"线性回归"（linear regression）试图学得一个线性模型以尽可能准确地预测实值输出标记。
+   给定数据集 $D = \{ (x_1, y_1), (x_2, y_2), …, (x_m, y_m)  \}$，其中 $x_i = (x_{i1}; x_{i2}; … ; x_{id})$，$y_i \in \mathbb{R}$。"线性回归"（linear regression）试图学得一个线性模型以尽可能准确地预测实值输出标记。
 
 4. **离散属性的连续化**
 
@@ -44,7 +46,7 @@ tags:
 
    线性回归试图学得
 
-   $f(x_i) = wx_i + b$，使得 $ f(x_i) \simeq  y_i \qquad (3.3)$
+   $$f(x_i) = wx_i + b，使得 f(x_i) \simeq  y_i \qquad (3.3)$$
 
    > 解析：线性回归模型的形式为 $f(x_i) = wx_i + b$，其中 $x_i$ 是我们用来训练模型的样本集，可以看做已知项，而 $w$ 和 $b$ 是未知项。所以我们需要知道 $w$ 和 $b$ 的值，模型才能正常使用。怎样才能求得 $w$ 和 $b$ 的值呢？
 
@@ -52,7 +54,7 @@ tags:
 
 $$(w^*, b^*) = argmin_{(w, b)} \sum_{i=1}^{m}(f(x_i) - y_i)^2 $$
 
-$$\quad\qquad = argmin_{(w, b)} \sum_{i=1}^{m}(y_i - wx_i - b)^2 \qquad (3.4) $$
+$$\quad\quad\quad\qquad = argmin_{(w, b)} \sum_{i=1}^{m}(y_i - wx_i - b)^2 \qquad (3.4) $$
 
 $$\frac{\partial E_{(a, b)}}{\partial w} = 2 \left(w\sum_{i=1}^m{x_i^2} - \sum_{i=1}^m(y_i - b)x_i \right) , \qquad (3.5) $$
 
