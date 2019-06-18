@@ -65,7 +65,7 @@ x
 ```
 
 输出：
-{% asset_img 61584c35.png 61584c35.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/61584c35.png" />
 
 使用NumPy构造一个未初始化的5x3的矩阵
 
@@ -75,7 +75,7 @@ x
 ```
 
 输出：
-{% asset_img 624451cc.png 624451cc.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/624451cc.png" />
 
 ##### 构造一个随机初始化的矩阵
 
@@ -85,7 +85,7 @@ x
 ```
 
 输出：
-{% asset_img 8e67cc1f.png 8e67cc1f.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/8e67cc1f.png" />
 
 使用Numpy构造一个随机初始化的矩阵：
 
@@ -95,7 +95,7 @@ x
 ```
 
 输出：
-{% asset_img f2f5f7b6.png f2f5f7b6.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/f2f5f7b6.png" />
 
 ##### 构造一个用0填充的矩阵，数据类型为long 
 
@@ -105,7 +105,7 @@ x
 ```
 
 输出：
-{% asset_img a89ee470.png a89ee470.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/a89ee470.png" />
 
 用NumPy构造一个用0填充的矩阵，数据类型为long 
 
@@ -115,7 +115,7 @@ x
 ```
 
 输出：
-{% asset_img 84d4e2f5.png 84d4e2f5.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/84d4e2f5.png" />
 
 ##### 构造一个用已有数据初始化的tensor
 
@@ -125,7 +125,7 @@ x
 ```
 
 输出：
-{% asset_img db7a767b.png db7a767b.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/db7a767b.png" />
 
 用NumPy构造一个用已有数据初始化的ndarray 
 
@@ -135,7 +135,7 @@ x
 ```
 
 输出：
-{% asset_img d2dad8b5.png d2dad8b5.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/d2dad8b5.png" />
 
 ##### 或者基于已有的tensor创建新的tensor，这些方法将重用输入的tensor的属性，例如，dtype，除非用户提供新值
 
@@ -149,7 +149,7 @@ print(x)
 ```
 
 输出：
-{% asset_img 83edc98f.png 83edc98f.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/83edc98f.png" />
 
 查看tensor的size：
 
@@ -169,7 +169,7 @@ x.shape
 > - torch.Size 实际上是一个元祖，因此它支持所有元祖操作。
 
 输出：
-{% asset_img deb8d58b.png deb8d58b.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/deb8d58b.png" />
 
 使用 NumPy 基于已有的ndarray创造新的ndarray，
 
@@ -183,7 +183,7 @@ print(x)
 ```
 
 输出：
-{% asset_img 1bff7a87.png 1bff7a87.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/1bff7a87.png" />
 
 查看ndarray的shape ：
 
@@ -192,7 +192,7 @@ x.shape
 ```
 
 输出：
-{% asset_img 8a7007d8.png 8a7007d8.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/8a7007d8.png" />
 
 #### 操作
 操作有多种语法，在下面的示例中，我们将研究加法操作。
@@ -208,7 +208,7 @@ print(x + y)
 ```
 
 输出：
-{% asset_img 7d036c4b.png 7d036c4b.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/7d036c4b.png" />
 
 NumPy 中的加法：语法1
 
@@ -221,7 +221,7 @@ print(x + y)
 ```
 
 输出：
-{% asset_img c6ccba98.png c6ccba98.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/c6ccba98.png" />
 
 ##### 加法：语法2
 
@@ -235,7 +235,7 @@ print(torch.add(x, y))
 ```
 
 输出：
-{% asset_img 777b8966.png 777b8966.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/777b8966.png" />
 
 NumPy中的加法：语法2
 
@@ -249,7 +249,7 @@ print(np.add(x, y))
 ```
 
 输出：
-{% asset_img 1d972dea.png 1d972dea.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/1d972dea.png" />
 
 ##### 加法：提供一个输出tensor作为参数
 
@@ -266,7 +266,7 @@ print(result)
 ```
 
 输出：
-{% asset_img 6f84d7d0.png 6f84d7d0.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/6f84d7d0.png" />
 
 NumPy 加法：提供一个输出ndarray作为参数
 
@@ -283,7 +283,7 @@ print(result)
 ```
 
 输出：
-{% asset_img 36cb2728.png 36cb2728.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/36cb2728.png" />
 
 ##### 加法：in-place（就地，在原来的位置改变）
 
@@ -305,7 +305,7 @@ print(id(y))
 ```
 
 输出：
-{% asset_img beff2a6f.png beff2a6f.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/beff2a6f.png" />
 
 ##### 您可以使用类似NumPy索引与切片的标准操作
 
@@ -317,7 +317,7 @@ print(x[:, 1])
 ```
 
 输出：
-{% asset_img 7d6ccc61.png 7d6ccc61.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/7d6ccc61.png" />
 
 NumPy中的索引与切片操作
 
@@ -329,7 +329,7 @@ print(x[:, 1])
 ```
 
 输出：
-{% asset_img b0eaf859.png b0eaf859.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/b0eaf859.png" />
 
 ##### 调整大小：如果您想要调整大小/改变形状，你可以使用 torch.view
 
@@ -361,7 +361,7 @@ print(x.size(), y.size(), z.size())
 > - 二者区别：当tensor都为contiguous类型（邻近模式）时，两个函数并无差异，使用原来的数据内容，不会复制一份新的出来；如果tensor不是，例如经过了transpose或permute之后，需要contiguous然后再使用view。reshape其实就是contiguous+view，这样不会开辟新的空间存放tensor，而是共享原来的数据内存。
 
 输出：
-{% asset_img ff705f81.png ff705f81.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/ff705f81.png" />
 
 ##### 如果你的tensor只有一个元素，使用.item()得到一个Python Number
 
@@ -373,7 +373,7 @@ print(x.item())
 ```
 
 回答：
-{% asset_img 21e8df91.png 21e8df91.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/21e8df91.png" />
 
 NumPy .item() 示例：
 
@@ -385,7 +385,7 @@ print(x.item())
 ```
 
 回答：
-{% asset_img 38e46887.png 38e46887.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/38e46887.png" />
 
 ##### **稍后阅读**
 
@@ -407,7 +407,7 @@ a
 ```
 
 输出：
-{% asset_img 4037d43b.png 4037d43b.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/4037d43b.png" />
 
 ```python
 b = a.numpy()
@@ -416,7 +416,7 @@ b
 ```
 
 输出：
-{% asset_img b7f7314c.png b7f7314c.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/b7f7314c.png" />
 
 ##### 查看NumPy数组的值是如何变化的：
 
@@ -427,7 +427,7 @@ a
 ```
 
 输出：
-{% asset_img 7001b1a8.png 7001b1a8.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/7001b1a8.png" />
 
 ```python
 b
@@ -435,7 +435,7 @@ b
 ```
 
 输出：
-{% asset_img 4b42b954.png 4b42b954.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/4b42b954.png" />
 
 > **注意**：
 >
@@ -449,7 +449,7 @@ a
 ```
 
 输出：
-{% asset_img 3000f0cd.png 3000f0cd.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/3000f0cd.png" />
 
 ```python
 b = a.numpy()
@@ -457,7 +457,7 @@ b = a.numpy()
 ```
 
 输出：
-{% asset_img 28a69493.png 28a69493.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/28a69493.png" />
 
 ```python
 b = a.cpu().numpy()
@@ -466,7 +466,7 @@ b
 ```
 
 输出：
-{% asset_img 5884b5e9.png 5884b5e9.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/5884b5e9.png" />
 
 ##### 查看NumPy数组的值是如何变化的：
 
@@ -477,7 +477,7 @@ a
 ```
 
 输出：
-{% asset_img c717c186.png c717c186.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/c717c186.png" />
 
 ```python
 b
@@ -485,7 +485,7 @@ b
 ```
 
 输出：
-{% asset_img de0e4923.png de0e4923.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/de0e4923.png" />
 
 ##### 将NumPy数组转换为Torch张量
 
@@ -501,7 +501,7 @@ print(b)
 ```
 
 输出：
-{% asset_img a163b2f7.png a163b2f7.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/a163b2f7.png" />
 
 ##### 查看改变NumPy数组，是否会改变位于GPU上的Torch张量：
 
@@ -515,7 +515,7 @@ print(b)
 ```
 
 输出：
-{% asset_img bf5c7507.png bf5c7507.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/bf5c7507.png" />
 
 <a name="index13"></a>
 
@@ -544,7 +544,7 @@ if torch.cuda.is_available():
 ```
 
 输出：
-{% asset_img 7f78e18f.png 7f78e18f.png %}
+<img src="https://raw.githubusercontent.com/machines-learning/image-repo/master/deep-learning-with-pytorch-a-60-minute-blitz/7f78e18f.png" />
 
 <a name="index2"/></a>
 
